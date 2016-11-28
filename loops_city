@@ -1,0 +1,20 @@
+// replace i for var
+
+var count = 0
+
+for (var count = 0; count <= 100; count++) {
+  console.log(count)
+}
+
+var animalArc = 0
+
+for (var animalArc = 0; animalArc <= 5; animalArc++) {
+  console.log("There arc x many animals in Noahs Arc")
+}
+
+var partyAnimals = ("dog", "cat", "platypus", "spider", "Koala")
+
+
+for (var i = 0; i < Things.length; i++) {
+  Things[i]
+}
