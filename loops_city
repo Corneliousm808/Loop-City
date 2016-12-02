@@ -1,20 +1,43 @@
 // replace i for var
 
+//Mommy
 var count = 0
 
 for (var count = 0; count <= 100; count++) {
   console.log(count)
 }
 
-var animalArc = 0
+// Noah Arc
+var animalCount = 0
 
-for (var animalArc = 0; animalArc <= 5; animalArc++) {
-  console.log("There arc x many animals in Noahs Arc")
+for (var animalCount = 0; animalCount <= 5; animalCount++) {
+  console.log("There are " + animalCount + " many animals in Noahs Arc")
 }
 
-var partyAnimals = ("dog", "cat", "platypus", "spider", "Koala")
+// Hip Hop Array
+var partyAnimals = ["dog", "cat", "platypus", "spider", "Koala"];
+var adjectives = ["barking at the platypus", "meowing at the spider", "dachbakwd at the wall", "trapping the koala", "napping on the dog"]
 
-
-for (var i = 0; i < Things.length; i++) {
-  Things[i]
+for (var i in partyAnimals ) {
+  console.log("The " + partyAnimals[i] + " is " + adjectives[i])
 }
+
+// Merlin's Battle Weapon
+var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
+var hero = [
+  wizard = "Marlin",
+  weapon = weaponChest[0],
+  power = 30
+];
+
+function fantasy(weapon){
+  if (hero[0] == weaponChest[1]){
+    console.log(hero[0] + " shall slay the dragon with the " + weaponChest[1])
+  }
+  else (hero[0] = weaponChest[1]);{
+    console.log(hero[0] + " is ready for war with the " + weaponChest[1])
+  }
+}
+
+
+fantasy(weaponChest[1])
